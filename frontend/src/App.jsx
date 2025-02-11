@@ -5,6 +5,7 @@ import Login from "./pages/login";
 import ForgotPassword from './components/forgot-password';
 import Profile from './pages/profile.jsx';
 import Register from './pages/register.jsx'
+import Contact from './pages/contact.jsx';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Route path='/forgot-password' element={<ForgotPassword/>}/>
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/register' element={<Register/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+
 
 
       </Routes>
